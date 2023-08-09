@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display: flex;
+            justify-content: center;
+        }
+        button {
+            width: 350px;
+            height: 100px;
+            margin-left: 20px;
+            color: white;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            font-size: 25pt;
+        }
+        #linkedin {
+            background-color:#007AB5;
+        }
+        #facebook {
+            background-color:#3B5998;
+        }
+        #whatsapp {
+            background-color:#4DC247;
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+    <button class="button" 
+    id="facebook"
+    data-sharer="facebook" 
+    data-hashtag="Test" 
+    data-url="https://res.cloudinary.com/djnchdgnz/image/upload/v1658875973/6d7b44c8-4417-40ed-80f4-e1bd6cc5290d_or7nk0.png">Share on Facebook</button>
+    <button class="button" 
+    id="linkedin"
+    data-sharer="linkedin" 
+    data-url="https://res.cloudinary.com/djnchdgnz/image/upload/v1658875973/6d7b44c8-4417-40ed-80f4-e1bd6cc5290d_or7nk0.png">Share on Linkedin</button>
+    <button class="button" 
+    data-sharer="whatsapp" 
+    id="whatsapp"
+    data-title="Checkout Sharer.js!" 
+    data-url="https://res.cloudinary.com/djnchdgnz/image/upload/v1658875973/6d7b44c8-4417-40ed-80f4-e1bd6cc5290d_or7nk0.png">Share on Whatsapp With you friends</button>
+
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
+
+
+</body>
+</html>
